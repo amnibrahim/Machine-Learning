@@ -7,7 +7,7 @@ This repository contains data science projects I worked for self learning and ho
   <li><h3>Natural Language Processing</h3>
     <ul>
       <li>
-        <a href='https://github.com/amnibrahim/Machine-  Learning/blob/master/Multiclass%20Text%20Classification%20on%20Ecommerce%20Reviews.ipynb'>Multiclass Classification on Ecommerce Reviews</a>: A model to predict clothing reviews written by customers on department name of the product.
+        <a href='https://github.com/amnibrahim/Machine-Learning/blob/master/Multiclass%20Text%20Classification%20on%20Ecommerce%20Reviews.ipynb'>Multiclass Classification on Ecommerce Reviews</a>: A model to predict clothing reviews written by customers on department name of the product.
       </li>
       <li>
         <a href="https://github.com/amnibrahim/Machine-Learning/blob/master/SentimentClassification%20on%20Jokowi%20News.ipynb">Sentiment Classification on Jokowi-Related News</a>: Classifying the polarity (positive and negative) of news headline that relate to Indonesia's president in 2018. The dataset was retrieved from global news dataset <a href="https://www.gdeltproject.org/">GDELT Project<a/> to obtain features such as URL news and average sentiment.
