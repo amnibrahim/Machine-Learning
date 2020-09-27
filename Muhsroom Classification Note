@@ -1,0 +1,41 @@
+== Report ==
+
+The report is well organized and structured. Figures are clear and equations are easy to understand. The results are deeply discussed and the student shows a good understanding about the proposed tasks. Just one reference is used in the report, the student could have explored more the literature.
+
+However, the analysis could have been deeper. There should be more analysis of hyper-parameters, variations, impact of pre-processing, etc. Additionally, the statistical analysis should be stronger.
+
+- ”class” -> Use `` for opening quotes.
+
+== Pre-processing ==
+
+Different techniques for pre-precessing are used and clarified in the report. For each problem the student applied different techniques. The code is working properly and is very well commented. PCA results and explained variance are shown. However:
+
+- Only oversampling applied in Abalone dataset. However, undersampling was used in Pulsar dataset.
+
+- Oversampling was applied incorrectly. The test set was oversampled, leading to incorrect results.
+
+- The impact of sampling is not analysed.
+
+- No missing values techniques applied in mushroom dataset.
+
+== Clustering ==
+
+For the clustering problem the student used K-means and hierarchy clustering. Both methods are compared in terms of purity. However:
+
+- The student could have explored more the different techniques for clustering and different number of centroids.
+
+- The quantitative analysis is very nice. It would be even stronger if there was a statistical evaluation (e.g., variance, statistical significance).
+
+- Code is nicely commented, but it is mostly based on the lab code and libraries.
+
+== Classification ==
+
+- For the classification task the student applied 2 different solutions (SVM, and Decision Tree). However, perhaps more classifiers could have been explored.
+
+- The student used different metrics for results evaluation. Results are well discussed, and the techniques chosen were correctly applied. However, the statistical analysis should be stronger.
+
+- It is nice the k-fold cross validation was applied, but only average accuracy is shown.
+
+- Figures produced helps to illustrate the results obtained, but the results of different classifiers could have been compared side-by-side in tables or graphs.
+
+- Code is working properly and it is well commented. However, it is mostly based on libraries, and the problem with oversampling led to incorrect results.
