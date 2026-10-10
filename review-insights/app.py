@@ -8,6 +8,10 @@ import urllib.parse
 from llm import BUSINESS_CONTEXT, get_recommendation
 from shared import aggregate_keywords, sample_batch
 
+from pathlib import Path
+
+BASE = Path(__file__).parent
+
 MAX_CALLS = 5  # per visitor session
 
 st.set_page_config(
@@ -30,12 +34,12 @@ DATA_URL = "https://www.kaggle.com/datasets/shitalkat/amazonearphonesreviews/dat
 
 @st.cache_data
 def load_pool():
-    return pd.read_csv("artifacts/test_pool.csv")
+    return pd.read_csv(BASE / "artifacts" / "test_pool.csv")
 
 
 @st.cache_data
 def load_metrics():
-    with open("artifacts/metrics.json") as f:
+    with open(BASE / "artifacts" / "metrics.json") as f:
         return json.load(f)
 
 
